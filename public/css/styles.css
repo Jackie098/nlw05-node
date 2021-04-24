@@ -126,7 +126,8 @@ body {
 
 .text_support {
   border: 1px solid #cec9c9;
-  max-height: 500px;
+  max-height: 450px;
+  min-height: 150px;
   overflow-y: scroll;
   /* border-bottom: 0px; */
 }
