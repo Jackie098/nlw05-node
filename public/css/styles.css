@@ -97,6 +97,10 @@ body {
 .client {
   display: flex;
   flex-direction: column;
+  background: #ccc;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 10px;
 }
 
 .client .name {
@@ -105,6 +109,7 @@ body {
 
 .client_message {
   background: #f2ecfa;
+  /* background: #000; */
   padding: 20px 10px;
   margin: 10px 0;
   width: 250px;
@@ -114,8 +119,9 @@ body {
 }
 
 .client .message {
-  background: #f2ecfa;
-  /* background: #cecad4; */
+  /* background: #f2ecfa; */
+  background: #cecad4;
+  /* background: #000; */
   padding: 20px 10px;
   margin: 10px 0;
   width: 250px;
@@ -126,8 +132,7 @@ body {
 
 .text_support {
   border: 1px solid #cec9c9;
-  max-height: 450px;
-  min-height: 150px;
+  max-height: 500px;
   overflow-y: scroll;
   /* border-bottom: 0px; */
 }
@@ -135,6 +140,7 @@ body {
 .admin {
   display: flex;
   flex-direction: column;
+  margin: 10px 0;
 }
 
 .admin .message {
@@ -247,4 +253,100 @@ input[type="text"]:focus {
 .date {
   text-align: right;
   font-size: 1px;
+}
+
+.btn_atd {
+  cursor: pointer;
+  color: #fff;
+  background: #b32a2a;
+  border: none;
+  height: 30px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.btn_atd:hover {
+  opacity: 0.9;
+}
+
+.admin {
+  border: 1px solid #ededed;
+  margin-top: 5px;
+}
+
+.email {
+  float: left;
+  width: 350px;
+}
+
+.admin_send_message {
+  display: flex;
+  flex-direction: row;
+}
+
+.admin_send_message input {
+  width: 300px;
+  margin-right: 10px;
+}
+
+.admin_send_message button {
+  width: 100px;
+  cursor: pointer;
+}
+
+.admin_list_messages {
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.admin_message_admin {
+  width: 300px;
+  background: #e0e0e0;
+  padding: 10px;
+  margin: 12px;
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 10px;
+
+  font-family: "Roboto", sans-serif;
+}
+
+#atendimentos {
+  width: 600px;
+}
+
+.admin_message_client {
+  width: 300px;
+  background: #6f5eab;
+  padding: 10px;
+  margin: 10px;
+  color: #eee;
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.admin_date {
+  font-size: 10px;
+  color: #fff;
+}
+
+.in_support {
+  background: #8d7aef;
+  color: #fff;
+  font-size: 17px;
+}
+
+.btn_send {
+  background: #1eb363;
+  color: #eee;
+  border: none;
+}
+
+.btn_send:hover {
+  opacity: 0.8;
 }
