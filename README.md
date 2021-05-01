@@ -19,26 +19,26 @@ Tecnologias utilizadas no projeto.
 
 ## Começando
 
-  1º Clone o projeto e instale as dependências (com YARN):
+  **1º** Clone o projeto e instale as dependências (com YARN):
   > yarn 
 
-  2º Após instalado todas as dependências, inicie o servidor:
+  **2º** Após instalado todas as dependências, inicie o servidor:
   > yarn dev
 
-  3º No navegador, consulte o *localhost/3333/pages/client* para acessar a visão do cliente e *localhost/pages/admin* para a visão do administrador
+  **3º** No navegador, consulte o *localhost/3333/pages/client* para acessar a visão do cliente e *localhost/pages/admin* para a visão do administrador
 
 ## Como usar
  
-  1º Quando o cliente clicar o botão de *suporte*. Aparecerá o seguinte:
+  **1º** Quando o cliente clicar o botão de *suporte*. Aparecerá o seguinte:
   ![Template inicial - cliente](https://github.com/Jackie098/nlw05-node/blob/main/images-readme/client_1.png)
 
-  2º Ao inserir a mensagem e o seu e-mail (identificação), o sistema iniciará uma conexão via socket e aguardará um administrador responder.
+  **2º** Ao inserir a mensagem e o seu e-mail (identificação), o sistema iniciará uma conexão via socket e aguardará um administrador responder.
   ![Esperando atendimento](https://github.com/Jackie098/nlw05-node/blob/main/images-readme/client_02.png)
 
-  3º Na página do administrador, será exibido uma lista com todos usuários em aguardo de atendimento
+  **3º** Na página do administrador, será exibido uma lista com todos usuários em aguardo de atendimento
   ![Lista de clientes em espera](https://github.com/Jackie098/nlw05-node/blob/main/images-readme/admin_01.png)
 
-  4º Ao clicar sobre um botão, abrirá um chat e o botão sumirá.
+  **4º** Ao clicar sobre um botão, abrirá um chat e o botão sumirá.
   ![Chat com cliente](https://github.com/Jackie098/nlw05-node/blob/main/images-readme/admin_02.png)
 
  
@@ -54,6 +54,6 @@ Tecnologias utilizadas no projeto.
     - Em caso de dúvidas ou sugestões, sinta-se livre para entrar em contato e/ou solicitar **pull requests**.
  
  
-## Autor
+## Criadores
  
-* **Carlos Augusto M**: @Jackie098 (https://github.com/Jackie098)
+* **Rocketseat**: (https://github.com/Rocketseat)
