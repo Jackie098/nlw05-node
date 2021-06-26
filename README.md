@@ -1,11 +1,11 @@
- ## Serviço de atendimento ao cliente
+ ## Customer attendance service
  
-Sistema back-end onde foi criado um atendimento online. Conexão bidirecional (WebSocket) e protocolo HTTP para salvar e editar as informações do cliente. Sistema criado durante o evento da Rocketseat conhecido como NLW ou New Level Week.
+Back-end system where an online service was created. With bidirectional connection (WebSocket) and HTTP protocol to save and edit client information. System created during the Rocketseat event known as NLW or New Level Week.
 
 
-## Tecnologias 
+## Technologes
  
-Tecnologias utilizadas no projeto.
+Technologies used in the project.
  
 * Node version 14.16.1
 * Typescript version 4.2.4
@@ -13,47 +13,47 @@ Tecnologias utilizadas no projeto.
 * Ejs version 3.1.6
 * SqLite3 version 5.0.2
  
-## Serviços Usados
+## Used Services
  
 * Git
 
-## Começando
+## Starting
 
-  **1º** Clone o projeto e instale as dependências (com YARN):
+  **1º** Clone the project and install the dependencies (with YARN):
   > yarn 
 
-  **2º** Após instalado todas as dependências, inicie o servidor:
+  **2º** After installing all dependencies, start the server:
   > yarn dev
 
-  **3º** No navegador, consulte o *localhost/3333/pages/client* para acessar a visão do cliente e *localhost/pages/admin* para a visão do administrador
+  **3º** In the browser, refer to *localhost/3333/pages/client* for the client view and *localhost/pages/admin* for the administrator view.
 
-## Como usar
+## How to use
  
-  **1º** Quando o cliente clicar o botão de *suporte*. Aparecerá o seguinte:
+  **1º** When the customer clicks the *support* button. The following will appear:
   ![Template inicial - cliente](https://github.com/Jackie098/nlw05-node/blob/main/images-readme/client_1.png)
 
-  **2º** Ao inserir a mensagem e o seu e-mail (identificação), o sistema iniciará uma conexão via socket e aguardará um administrador responder.
+  **2º** When inserting the message and your e-mail (identification), the system will initiate a connection via socket and wait for an administrator to respond.
   ![Esperando atendimento](https://github.com/Jackie098/nlw05-node/blob/main/images-readme/client_02.png)
 
-  **3º** Na página do administrador, será exibido uma lista com todos usuários em aguardo de atendimento
+  **3º** On the administrator page, a list of all users waiting to be serviced will be displayed.
   ![Lista de clientes em espera](https://github.com/Jackie098/nlw05-node/blob/main/images-readme/admin_01.png)
 
-  **4º** Ao clicar sobre um botão, abrirá um chat e o botão sumirá.
+  **4º** Clicking on a button will open a chat and the button will disappear.
   ![Chat com cliente](https://github.com/Jackie098/nlw05-node/blob/main/images-readme/admin_02.png)
 
  
-## Atualizações
+## Updates
  
-  - Sugestões: 
-    - No chat, função para apagar envio de mensagem e/ou poder editá-la.
+  - Suggestions: 
+    - In chat, function to delete message sending and/or edit it.
  
  
 ## Links
  
-  - Repositório: https://github.com/Jackie098/nlw05-node
-    - Em caso de dúvidas ou sugestões, sinta-se livre para entrar em contato e/ou solicitar **pull requests**.
+  - Repository: https://github.com/Jackie098/nlw05-node
+    - In case of doubts or suggestions, feel free to contact and/or request **pull requests**.
  
  
-## Criadores
+## Creators
  
 * **Rocketseat**: (https://github.com/Rocketseat)
